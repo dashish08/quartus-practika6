@@ -1,0 +1,13 @@
+|practika6
+q[0] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst10.CLK
+clk => inst12.CLK
+clk => inst14.CLK
+clk => inst16.CLK
+a => inst.IN0
+b => ~NO_FANOUT~
+
+
